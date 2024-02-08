@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <title>Week 4 Notes</title>
+        <style> 
+        td, th {border: 1px solid black;}
+        </style>
+    </head>
+    <body>
+        <h2>Tables</h2>
+        <table>
+            <tr> <!-- this is for table headings-->
+                <th>Country</th>
+                <th>Population</th>
+                <th>% of World Population</th>
+
+            </tr>
+            <tr>
+            <td>China</td>
+            <td>1,403,830,040</td>
+            <td>18%</td>
+        </tr>
+        <tr>
+            <td>India</td> <!-- td is table data-->
+            <td>Numbers</td>
+            <td>% of Numbers</td>
+            </tr>
+        <tr>
+            <td>United States</td>
+            <td>More Numbers</td>
+            <td>A % of Number</td>
+        </tr>
+        </table>
+        <h2>Forms</h2> <!-- all form elements inside form tag -->
+        <form action="" method="post"> <!--input type text is for short text-->
+            <label for="fullname">Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+            <label for="specialinstructions">Special Instructions:</label><br> 
+            <textarea id="specialinstructions" name="specialinstructions" rows="3" cols="60"></textarea> <br> 
+                <p>Delivery Instructions</p> 
+                <!--name value links radio buttons-->
+                <!--ids must be unique for each button-->
+                <input type="radio" id="pickup" name="pickupdelivery" value="customer will pickup">
+                <label for="pickup">pickup</label>
+                <input type="radio" id="delivery" name="delivery" value="customer chose deliver">
+                <label for="delivery">delivery</label>
+                <p>Do you want extra sauce?</p>
+                <input type="checkbox" id="extra" name="extrasauce" value="yes">
+                <label for="extra">yes</label><br>
+            
+                <br> <label for="neighborhood">Neighborhood:</label> <!--all values must be in an option for selects-->
+                <select id="neighborhood" name="neighborhood">
+                    <option></option> <!--this shows it blank instead of auto-selecting the first option-->
+                    <option>Westcott</option>
+                    <option>Downtown</option>
+                    <option>Eastwoood</option>
+                                </select>
+                                <br>
+                                <!--button text is in the value for a submit-->
+                   <br> <input type="submit" value="Submit Form">
+               
+                
+    </form>
+    </body>
