@@ -1,0 +1,21 @@
+body {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #FFE4E1;
+color:#807C7C;}
+h1, h2 {color: #423E3E;}
+a {color:#423E3E;}
+nav {background-color: #F3EDED;}
+nav a {color:#423E3E;}
+nav a:hover {background-color:#DBD1D1;}
+nav {padding: 10px;
+margin-bottom:30px;}
+.quote {float:right;margin-right:10px;}
+.quote {display: inline-block;}
+.contact {display:flex;
+background-color: rgb(250, 250, 250);border-radius: 1em;
+padding:10px;margin: 10px;}
+.map {display:flex;
+background-color: rgb(250, 250, 250);border-radius: 1em;
+padding: 1%; margin:10px;}
+.map1 {margin-left:10%;}
+.linkedin {margin-left:10%;}
+
