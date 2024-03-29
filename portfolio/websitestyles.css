@@ -1,0 +1,56 @@
+h1 {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+line-height: .5;}
+h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+font-weight: lighter;
+text-align: center;
+font-style: italic;
+line-height:0;
+margin:2;}
+
+nav {text-align: center;
+    font-size:1.2em;}
+
+a {color:rgb(54, 150, 150);}
+a:hover {color:rgb(12,03,31);} 
+
+hr {border-top:1.5px solid black}
+
+.flexbox {display: flex;
+margin:90px;
+padding:20px;
+margin-left: 280px;
+}
+
+.aboutme {margin-left: 60px;
+text-align:left;
+text-wrap:pretty;
+}
+
+#element{
+    position:absolute;
+    top:-400px;
+
+    width:15%;
+    padding:2em;
+    animation: drop 2s ease forwards;
+    animation-iteration-count:unset;
+  }
+  
+  @keyframes drop{
+    0%{opacity: 0}
+    70%{transform: translateY(700px)}
+    100%{transform: translateY(650px)}
+  }
+
+  .contact {text-align: center;}
+  .border {text-align: center;
+ transform:scale(.5) }
+
+
+ body {background-color:whitesmoke; }
+ .sub {font-size: large;
+text-align: center;
+color: rgb(174, 10, 10);}
+ 
