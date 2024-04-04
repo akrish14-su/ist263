@@ -54,3 +54,11 @@ text-wrap:pretty;
 text-align: center;
 color: rgb(174, 10, 10);}
  
+@media(max-width:900px) {
+
+img {
+  width: 50%;
+  height: auto;
+}
+}
+ 
