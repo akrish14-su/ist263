@@ -44,5 +44,12 @@ p {margin:10px;}
     margin: 5px;}
         span {display: none;}
    
+}
+
+h1, h2 {
     
+        font-family: "Sedan", serif;
+        font-weight: 400;
+        font-style: normal;
+      
 }

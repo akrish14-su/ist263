@@ -62,3 +62,11 @@ img {
 }
 }
  
+.flexbox1 { display: flexbox;
+}
+
+.maptext {
+  float: left;
+}
+
+h2 { display: block;}
