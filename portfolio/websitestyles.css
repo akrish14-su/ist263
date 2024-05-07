@@ -59,14 +59,42 @@ color: rgb(174, 10, 10);}
 img {
   width: 50%;
   height: auto;
+  justify-content: space-around;
+  display: flexbox;
+  flex-wrap: wrap;
 }
+h2 { display: inline;}
 }
  
-.flexbox1 { display: flexbox;
+.flexbox1, .flexbox2 { display: flexbox;
+  flex-wrap: wrap;
+  display: row;
+  align-items: center;
+}
+
+
+
+
+.sketch {
+  width: 45%; 
+  height: auto;
+  justify-content: space-around;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.imgs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .maptext {
-  float: left;
-}
+text-align: center;}
 
-h2 { display: block;}
+.maptexts {
+  text-align: justify;
+  padding: 35px;
+}
